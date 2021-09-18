@@ -1,4 +1,8 @@
+<<<<<<< HEAD
  <template>
+=======
+<template>
+>>>>>>> origin/main
   <p class="message">{{ message }}</p>
 </template>
 

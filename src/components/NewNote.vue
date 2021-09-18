@@ -28,7 +28,10 @@ export default {
 .new-note {
   text-align: center;
 }
+<<<<<<< HEAD
 .btn {
   margin: 25px auto;
 }
+=======
+>>>>>>> origin/main
 </style>

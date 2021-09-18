@@ -1,7 +1,11 @@
 <template>
   <div class="notes">
     <div class="note" :class="{ full: !grid }" v-for="(note, index) in notes" :key="index">
+<<<<<<< HEAD
       <div :class="{ full: !grid }" class="note-header">
+=======
+      <div class="note-header">
+>>>>>>> origin/main
         <p>{{ note.title }}</p>
         <p style="cursor: pointer" @click="removeNote(index)">x</p>
       </div>
@@ -47,6 +51,7 @@ export default {
   padding: 18px 20px;
   margin:18px 20px;
   background-color: #ffffff;
+<<<<<<< HEAD
   transition: all .25s cubic-bezier(.02,.01,.47,1);
   box-shadow: 0 30px 30px rgba(0,0,0,0.2);
   &:hover{
@@ -57,6 +62,10 @@ export default {
   &.full {
     width: 100%;
     text-align: center;
+=======
+  &.full {
+    width: 100%;
+>>>>>>> origin/main
   }
 }
 
@@ -84,6 +93,7 @@ export default {
     }
 
     &:last-child {
+<<<<<<< HEAD
       margin-right: 0;
     }
   }
@@ -94,6 +104,9 @@ export default {
       &:last-child{
         margin-right: 0;
       }
+=======
+      margin: 0;
+>>>>>>> origin/main
     }
   }
 }
